@@ -48,19 +48,19 @@ function convertValues() {
     const currencyName = document.getElementById("currency-name")
     const currencyImage = document.querySelector(".currency-img")
 
-    if (currencySelect.value == "dolar") {
+    if (currencySelect.value == "Dolar") {
         currencyName.innerHTML = "Dólar Americano"
         currencyImage.src = "./assets/estados-unidos (1) 1.png"
     }
-    if (currencySelect.value == "euro") {
+    if (currencySelect.value == "Euro") {
         currencyName.innerHTML = "Euro"
         currencyImage.src = "./assets/Design sem nome 3.png"
     }
-    if (currencySelect.value == "libra") {
+    if (currencySelect.value == "Libra") {
         currencyName.innerHTML = "Libra"
         currencyImage.src = "./assets/libra 1.png"
     }
-    if (currencySelect.value == "bitcoin") {
+    if (currencySelect.value == "Bitcoin") {
         currencyName.innerHTML = "Bitcoin"
         currencyImage.src = "./assets/bitcoin 1.png"
     }
