@@ -31,9 +31,9 @@ function convertValues() {
         }).format(inputCurrencyValue / libraToday)
     }
     if (currencySelect.value == "Bitcoin") {
-        ValueToConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
+        ValueToConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
-            currency: "BRL"
+            currency: "BTC"
         }).format(inputCurrencyValue / bitcoinToday)
     }
 
